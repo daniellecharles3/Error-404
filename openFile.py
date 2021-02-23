@@ -26,3 +26,4 @@ for root, subdirs, files in os.walk(walk_dir):
                 list_file.write(('The file %s contains:\n' % filename).encode('utf-8'))
                 list_file.write(f_content)
                 list_file.write(b'\n')
+#danielle
